@@ -84,9 +84,9 @@ public class InfoAplikasiActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (getPosition() == 0) {
-                    //startActivity(new Intent(v.getContext(), ProfileAcfivity.class));
+                    startActivity(new Intent(v.getContext(), ProfileActivity.class));
                 } else if (getPosition() == 1) {
-                    //startActivity(new Intent(v.getContext(), DeskripsiActivity.class));
+                    startActivity(new Intent(v.getContext(), DeskripsiActivity.class));
                 } else if (getPosition() == 2) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(InfoAplikasiActivity.this);
                     builder.setTitle("Mobile Developer");
@@ -112,7 +112,7 @@ public class InfoAplikasiActivity extends AppCompatActivity {
                     });
                     builder.show();
                 } else if (getPosition() == 4) {
-                    //startActivity(new Intent(v.getContext(), AboutActivity.class));
+                    startActivity(new Intent(v.getContext(), AboutActivity.class));
                 }
             }
         }

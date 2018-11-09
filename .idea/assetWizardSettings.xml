@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="paddingPercent" value="20" />
+                                                <entry key="paddingPercent" value="5" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -36,8 +36,8 @@
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="backgroundColor" value="e1dd78" />
                                       <entry key="iconShape" value="NONE" />
-                                      <entry key="imageAsset" value="$PROJECT_DIR$/../pencak silat/icon/icons8-android.png" />
-                                      <entry key="outputName" value="ic_dev_mobile" />
+                                      <entry key="imageAsset" value="$PROJECT_DIR$/../um_logo.png" />
+                                      <entry key="outputName" value="um_logo" />
                                     </map>
                                   </option>
                                 </PersistentState>

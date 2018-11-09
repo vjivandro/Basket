@@ -9,6 +9,7 @@
     <string name="page_info">Info Aplikasi</string>
     <string name="page_cara">Cara</string>
     <string name="page_video">Video</string>
+    <string name="page_profil">Profile</string>
     <string name="page_about">About App</string>
     <string name="page_deskripsi">Deskripsi Aplikasi</string>
     <string name="page_web">Web</string>
@@ -17,4 +18,12 @@
     <!--youtube-->
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
 
+    <!--profil-->
+    <string name="profile_paraf_pertama">Penulis mempunyai nama lengkap ACH Syahroni, lahir di Kabupaten Sampang pada 21 Maret 1995 silam. Penulis merupakan anak kedua dari pasangan Bapak Soheh dan Ibu Munawaroh. Pendidikannya dimulai dari SDN Polagan 02, setelah tamat belajar pendidikan dasar penulis melanjutkan pendidikannya di SMP Negeri 1 Omben dan Menempuh ke jenjang SMK Negeri 1 Sampang. Pada tahun 2015 penulis berhasil melanjutkan pendidikan di Perguruan Tinggi Universitas Negeri Malang yang berkonsentrasi di Jurusan Pendidikan Kepelatihan Olahraga.</string>
+    <string name="profile_paraf_ekdua">Sedari duduk di bangku Sekolah Dasar, penulis menyadari betapa pentingnya aktif  dalam kegiatan non-formal. Sejak Sekolah Dasar penulis mulai aktif di kegiatan Pramuka dan ekstrakurikuler olahraga sa. Sedangkan sewaktu SMP penulis banyak menghabiskan waktu untuk latihan Bola Basket di klub maupun di ektra sekolah. Berlanjut ketika masuk SMK telah bergabung tim bola basket, dan banyak mencapaian tropi dari perlombaan yang di ikuti pada waktu SMK.</string>
+    <string name="profile_paraf_ketiga">Saat menyenyam pendidikan di perguruan tinggi Universitas Negeri Malang penulis aktif dalam kegiatan Organisasi Mahasiswa. Menjadi anggota Badan Eksekutif Mahasiswa di Fakultas Ilmu Keolahragaan (BEM FIK) selama 1 periode kepengurusan yaitu 2016-2017, dan pernah pernah menjurai beberapa perlombaan bola basket dengan mengatasnamakan Fakultas.</string>
+    <string name="profile_paraf_keempat">Satu hal yang penulis sangat syukuri, yaitu dianugrahi oleh Allah SWT kedua orang tua yang sangat luar biasa dalam memeberikan perhatian, motivasi dan doa. Dan tak lupa untuk guru, dosen dan sahabat yang selalu menginspirasi dan memotivasi. Semoga kalian semua selalu dalam lindungan Allah AWT.</string>
+
+    <!--deskripsi-->
+    <string name="deskripsi_content">Aplikasi Bola Basket ini memuat konten utama yang berupa 20 model latihan shooting bola basket. Adapun konten pendukung dalam aplikasi ini yaitu Sejarah dan Teknik Dasar Bola Basket dan Info Aplikasi, dimana dalam menu Info Aplikasi memuat konten Profil, Deskripsi Aplikasi, Developer, Copyright dan Build Version. Aplikasi ini didedikasikan untuk Keluarga, Para Pelatih Bola Basket (khususnya MAN 1 Malang), ektrakulikuler bola basket (khususnya MAN 1 Malang), atau siapa saja yang berkecimpung dalam dunia bola basket. Semoga dengan adanya aplikasi ini memberikan pengaruh positif untuk kemajuan ilmu bola basket.</string>
 </resources>

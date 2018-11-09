@@ -19,7 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activity.SejarahActivity"
             android:label="@string/page_sejarah"
@@ -36,6 +35,19 @@
             android:name=".activity.InfoAplikasiActivity"
             android:label="@string/page_info"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:label="@string/page_profil"
+            android:parentActivityName=".activity.InfoAplikasiActivity" />
+        <activity
+            android:name=".activity.DeskripsiActivity"
+            android:label="@string/page_deskripsi"
+            android:parentActivityName=".activity.InfoAplikasiActivity" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/page_about"
+            android:parentActivityName=".activity.InfoAplikasiActivity" />
+        <activity android:name=".activity.WebViewActivity"></activity>
     </application>
 
 </manifest>
