@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Basket</string>
+
+    <!--Page-->
+    <string name="page_main">Dashboard</string>
+    <string name="page_sejarah">Sejarah</string>
+    <string name="page_teknik">Teknik Dasar</string>
+    <string name="page_kombinasi">Kombinasi</string>
+    <string name="page_info">Info Aplikasi</string>
+    <string name="page_cara">Cara</string>
+    <string name="page_video">Video</string>
+    <string name="page_about">About App</string>
+    <string name="page_deskripsi">Deskripsi Aplikasi</string>
+    <string name="page_web">Web</string>
+    <string name="page_rule">Petunjuk Aplikasi</string>
+
+    <!--youtube-->
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
 </resources>

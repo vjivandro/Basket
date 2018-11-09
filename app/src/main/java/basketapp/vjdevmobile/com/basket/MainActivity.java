@@ -3,6 +3,7 @@ package basketapp.vjdevmobile.com.basket;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +17,10 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import basketapp.vjdevmobile.com.basket.activity.InfoAplikasiActivity;
+import basketapp.vjdevmobile.com.basket.activity.SejarahActivity;
+import basketapp.vjdevmobile.com.basket.activity.TeknikDasarActivity;
+import basketapp.vjdevmobile.com.basket.activity.VideoActivity;
 import basketapp.vjdevmobile.com.basket.helper.Helper;
 import basketapp.vjdevmobile.com.basket.model.MenuModel;
 import basketapp.vjdevmobile.com.basket.util.ItemDecorationColumns;
@@ -87,15 +92,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-//                if (getPosition() == 0) {
-//                    startActivity(new Intent(v.getContext(), SejarahActivity.class));
-//                } else if (getPosition() == 1) {
-//                    startActivity(new Intent(v.getContext(), TeknikDasarActivity.class));
-//                } else if (getPosition() == 2) {
-//                    startActivity(new Intent(v.getContext(), KombinasiActivity.class));
-//                } else if (getPosition() == 3) {
-//                    startActivity(new Intent(v.getContext(), InfoAplikasi.class));
-//                }
+                if (getPosition() == 0) {
+                    startActivity(new Intent(v.getContext(), SejarahActivity.class));
+                } else if (getPosition() == 1) {
+                    startActivity(new Intent(v.getContext(), TeknikDasarActivity.class));
+                } else if (getPosition() == 2) {
+                    startActivity(new Intent(v.getContext(), VideoActivity.class));
+                } else if (getPosition() == 3) {
+                    startActivity(new Intent(v.getContext(), InfoAplikasiActivity.class));
+                }
             }
         }
     }

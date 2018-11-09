@@ -16,4 +16,16 @@ public class Helper {
         lisDashboard.add(new MenuModel("Info Aplikasi", R.mipmap.ic_info));
         return lisDashboard;
     }
+
+    // Menu Info
+    public static List<MenuModel> getInfoAplikasi(){
+
+        List<MenuModel> listInfo = new ArrayList<MenuModel>();
+        listInfo.add(new MenuModel("Profil", R.mipmap.ic_user));
+        listInfo.add(new MenuModel("Deskripsi", R.mipmap.ic_deskrip));
+        listInfo.add(new MenuModel("Developer", R.mipmap.ic_dev_mobile));
+        listInfo.add(new MenuModel("Analyst", R.mipmap.ic_editor));
+        listInfo.add(new MenuModel("About", R.mipmap.ic_about_app));
+        return listInfo;
+    }
 }

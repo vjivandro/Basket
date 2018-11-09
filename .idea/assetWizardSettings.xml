@@ -35,9 +35,9 @@
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="backgroundColor" value="e1dd78" />
-                                      <entry key="iconShape" value="CIRCLE" />
-                                      <entry key="imageAsset" value="$PROJECT_DIR$/../icon_basket/icons8-info_popup.png" />
-                                      <entry key="outputName" value="ic_info" />
+                                      <entry key="iconShape" value="NONE" />
+                                      <entry key="imageAsset" value="$PROJECT_DIR$/../pencak silat/icon/icons8-android.png" />
+                                      <entry key="outputName" value="ic_dev_mobile" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -48,6 +48,44 @@
                         <option name="values">
                           <map>
                             <entry key="outputIconType" value="LAUNCHER_LEGACY" />
+                          </map>
+                        </option>
+                      </PersistentState>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PersistentState>
+          </value>
+        </entry>
+        <entry key="vectorWizard">
+          <value>
+            <PersistentState>
+              <option name="children">
+                <map>
+                  <entry key="vectorAssetStep">
+                    <value>
+                      <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/navigation/ic_close_black_24dp.xml" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="color" value="fc1811" />
+                            <entry key="outputName" value="ic_close_red" />
+                            <entry key="sourceFile" value="$USER_HOME$" />
                           </map>
                         </option>
                       </PersistentState>
