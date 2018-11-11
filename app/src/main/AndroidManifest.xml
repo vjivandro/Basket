@@ -33,9 +33,17 @@
             android:label="@string/page_teknik"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".activity.ModelLatihanActivity"
+            android:label="@string/page_kombinasi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".activity.CaraActivity"
+            android:label="@string/page_cara"
+            android:parentActivityName=".activity.ModelLatihanActivity" />
+        <activity
             android:name=".activity.VideoActivity"
             android:label="@string/page_video"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".activity.ModelLatihanActivity" />
         <activity
             android:name=".activity.InfoAplikasiActivity"
             android:label="@string/page_info"
@@ -52,7 +60,14 @@
             android:name=".activity.AboutActivity"
             android:label="@string/page_about"
             android:parentActivityName=".activity.InfoAplikasiActivity" />
-        <activity android:name=".activity.WebViewActivity" />
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:label="@string/page_web"
+            android:parentActivityName=".activity.InfoAplikasiActivity" />
+        <activity
+            android:name=".activity.PetunjukActivity"
+            android:label="@string/page_rule"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

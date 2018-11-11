@@ -5,15 +5,21 @@
     <string name="page_main">Dashboard</string>
     <string name="page_sejarah">Sejarah</string>
     <string name="page_teknik">Teknik Dasar</string>
-    <string name="page_kombinasi">Kombinasi</string>
+    <string name="page_kombinasi">Model Latihan</string>
     <string name="page_info">Info Aplikasi</string>
-    <string name="page_cara">Cara</string>
+    <string name="page_cara">Cara Model Latihan</string>
     <string name="page_video">Video</string>
     <string name="page_profil">Profile</string>
     <string name="page_about">About App</string>
     <string name="page_deskripsi">Deskripsi Aplikasi</string>
     <string name="page_web">Web</string>
     <string name="page_rule">Petunjuk Aplikasi</string>
+
+    <!--action menu-->
+    <string name="action_petunjuk">Petunjuk</string>
+
+    <!--title splash screen-->
+    <string name="title_splashscreen">MODEL LATIHAN SHOOTING BOLA BASKET</string>
 
     <!--youtube-->
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>

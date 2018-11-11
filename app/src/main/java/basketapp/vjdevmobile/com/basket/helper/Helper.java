@@ -17,6 +17,14 @@ public class Helper {
         return lisDashboard;
     }
 
+    // Menu Model Latihan
+    public static List<MenuModel> getModelLatihan() {
+        List<MenuModel> menulatihan = new ArrayList<MenuModel>();
+        menulatihan.add(new MenuModel("Model Latihan Shooting Bola Basket", R.mipmap.ic_cara));
+        menulatihan.add(new MenuModel("Video Model Latihan Shooting Bola Basket", R.mipmap.ic_video));
+        return menulatihan;
+    }
+
     // Menu Info
     public static List<MenuModel> getInfoAplikasi(){
 
