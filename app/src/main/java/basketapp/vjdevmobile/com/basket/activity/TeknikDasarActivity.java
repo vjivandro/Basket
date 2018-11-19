@@ -41,7 +41,7 @@ public class TeknikDasarActivity extends AppCompatActivity implements OnPageChan
                 .enableSwipe(true)
                 .pageFitPolicy(FitPolicy.WIDTH)
                 .pageSnap(true)
-                .swipeHorizontal(false)
+                .swipeHorizontal(true)
                 .pageFling(false) // make a fling change only a single page like ViewPager
                 .nightMode(false) // toggle night mode
                 .onPageChange(this)

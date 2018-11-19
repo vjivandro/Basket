@@ -88,23 +88,23 @@ public class InfoAplikasiActivity extends AppCompatActivity {
                 } else if (getPosition() == 1) {
                     startActivity(new Intent(v.getContext(), DeskripsiActivity.class));
                 } else if (getPosition() == 2) {
+                    AlertDialog.Builder alertadd = new AlertDialog.Builder(itemView.getContext());
+                    alertadd.setMessage("Tujuan Instruksional");
+                    alertadd.setIcon(R.mipmap.ic_launcher);
+                    LayoutInflater factory = LayoutInflater.from(itemView.getContext());
+                    View view = factory.inflate(R.layout.item_dialog, null);
+                    TextView detail_tv = (TextView) view.findViewById(R.id.tv_detail);
+                    detail_tv.setText(R.string.tujuan);
+                    alertadd.setView(view);
+                    alertadd.setCancelable(true);
+                    alertadd.setPositiveButton("Tutup", null);
+                    alertadd.show();
+                } else if (getPosition() == 3) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(InfoAplikasiActivity.this);
                     builder.setTitle("Mobile Developer");
                     builder.setIcon(R.mipmap.ic_dev_mobile);
                     builder.setMessage("Juris Vassa Ivandro, S.Kom\n082143594666\nvjdevmobile@gmail.com");
-                    builder.setPositiveButton("Oke", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-
-                        }
-                    });
-                    builder.show();
-                } else if (getPosition() == 3) {
-                    AlertDialog.Builder builder = new AlertDialog.Builder(InfoAplikasiActivity.this);
-                    builder.setTitle("Analyst");
-                    builder.setIcon(R.mipmap.ic_dev_mobile);
-                    builder.setMessage("Eko Hadi Santoso, Amd.Kom\n082245493396\nekohs2009@gmail.com");
-                    builder.setPositiveButton("Oke", new DialogInterface.OnClickListener() {
+                    builder.setPositiveButton("Tutup", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
 
@@ -112,6 +112,18 @@ public class InfoAplikasiActivity extends AppCompatActivity {
                     });
                     builder.show();
                 } else if (getPosition() == 4) {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(InfoAplikasiActivity.this);
+                    builder.setTitle("Analyst");
+                    builder.setIcon(R.mipmap.ic_dev_mobile);
+                    builder.setMessage("Eko Hadi Santoso, Amd.Kom\n082245493396\nekohs2009@gmail.com");
+                    builder.setPositiveButton("Tutup", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+
+                        }
+                    });
+                    builder.show();
+                } else if (getPosition() == 5) {
                     startActivity(new Intent(v.getContext(), AboutActivity.class));
                 }
             }

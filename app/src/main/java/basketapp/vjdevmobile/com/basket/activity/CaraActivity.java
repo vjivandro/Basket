@@ -41,7 +41,7 @@ public class CaraActivity extends AppCompatActivity implements OnPageChangeListe
                 .enableSwipe(true)
                 .pageFitPolicy(FitPolicy.WIDTH)
                 .pageSnap(true)
-                .swipeHorizontal(false)
+                .swipeHorizontal(true)
                 .pageFling(false) // make a fling change only a single page like ViewPager
                 .nightMode(false) // toggle night mode
                 .onPageChange(this)

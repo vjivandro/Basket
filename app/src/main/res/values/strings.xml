@@ -32,4 +32,20 @@
 
     <!--deskripsi-->
     <string name="deskripsi_content">Aplikasi Bola Basket ini memuat konten utama yang berupa 20 model latihan shooting bola basket. Adapun konten pendukung dalam aplikasi ini yaitu Sejarah dan Teknik Dasar Bola Basket dan Info Aplikasi, dimana dalam menu Info Aplikasi memuat konten Profil, Deskripsi Aplikasi, Developer, Copyright dan Build Version. Aplikasi ini didedikasikan untuk Keluarga, Para Pelatih Bola Basket (khususnya MAN 1 Malang), ektrakulikuler bola basket (khususnya MAN 1 Malang), atau siapa saja yang berkecimpung dalam dunia bola basket. Semoga dengan adanya aplikasi ini memberikan pengaruh positif untuk kemajuan ilmu bola basket.</string>
+
+    <!--Kontent Petunjuk-->
+    <string name="content_sejarah">Menu yang memuat tentang sejarah dari olahraga bola basket</string>
+    <string name="content_teknik">Menu yang memuat beberapa teknik - teknik dasar dalam olahraga bola basket</string>
+    <string name="content_modellatihan">Sebuah Menu utama untuk 2 submenu cara latihan dan video latihan</string>
+    <string name="content_modellatihan_cara">Submenu cara berisi tentang model latihan shooting bola basket</string>
+    <string name="content_modellatihan_video">Submenu cara berisi tentang model latihan shooting bola basket yang berupa video latihan</string>
+    <string name="content_infoapp">Menu berisi kumpulan informasi mengenai aplikasi</string>
+    <string name="content_infoapp_profile">Submenu Profil pemilik dan penulis seluruh kontent didalam aplikasi</string>
+    <string name="content_infoapp_deskripsi">Submenu berisi tentang deskripsi aplikasi ini</string>
+    <string name="content_infoapp_dev">alertdialog atau popup informasi pengembang aplikasi mobile android</string>
+    <string name="content_infoapp_analyst">alertdialog atau popup informasi analis apliaksi merancang alur proses aplikasi</string>
+    <string name="content_infoapp_about">Submenu tentang aplikasi</string>
+    
+    <!--Tujuan Instruksional-->
+    <string name="tujuan">A. Kognitif \n Siswa mendapatkan pengetahuan ingatan dan penangkapan makna dari bahan yang pernah dipelajari di Aplikasi Model Latihan Shooting ini.\nB. Afektif \n Siswa mendapatkan kemampuan memperhatikan aktif Model Latihan pada waktu melakukan latihan maupun pada waktu tidak melakukan latihan.\nC. Psikomotorik \n Siswa dapat langsung melaksanakan sesudah melihat tayangan Model latihan dengan tepat dan efisien.</string>
 </resources>

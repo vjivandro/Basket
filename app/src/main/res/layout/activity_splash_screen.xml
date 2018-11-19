@@ -18,7 +18,7 @@
         android:layout_marginTop="28dp"
         android:text="@string/title_splashscreen"
         android:textAlignment="center"
-        android:textColor="#000"
+        android:textColor="@color/color_text_title_splash"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

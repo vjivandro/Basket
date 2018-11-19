@@ -61,10 +61,10 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="backgroundColor" value="a6cb91" />
+                                      <entry key="backgroundColor" value="424041" />
                                       <entry key="iconShape" value="NONE" />
-                                      <entry key="imageAsset" value="$PROJECT_DIR$/../pencak silat/icon/icons8-questions.png" />
-                                      <entry key="outputName" value="ic_petunjuk" />
+                                      <entry key="imageAsset" value="$PROJECT_DIR$/../icon futsal/icons8-goal.png" />
+                                      <entry key="outputName" value="ic_goal" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -100,7 +100,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_build_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_navigate_next_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -110,8 +110,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="424041" />
-                            <entry key="outputName" value="ic_build" />
+                            <entry key="color" value="eaeaea" />
+                            <entry key="outputName" value="ic_navigate_next" />
                             <entry key="sourceFile" value="$USER_HOME$" />
                           </map>
                         </option>
